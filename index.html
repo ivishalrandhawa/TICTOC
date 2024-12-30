@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+
+<div id="game-container">
+    <div id="board"></div>
+    <div class="message" id="message">Player X's turn</div>
+    <button class="btn restart-btn" id="restartBtn" onclick="restartGame()">Restart Game</button>
+</div>
+
+<div class="modal" id="result-modal">
+    <div class="modal-content">
+        <div id="result-message"></div>
+        <button class="btn restart-btn" id="modalRestartBtn" onclick="restartGame()">Restart Game</button>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
